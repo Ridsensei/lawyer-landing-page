@@ -5,13 +5,13 @@ padding: 0px;
 nav{
     width: 80%;
     height: 50px;
-    /* background-color: blue; */
+    background-color: blue;
     display: flex;
 }
 .leftbox{
     width: 60%;
     height: 50px;
-    /* background-color: aqua; */
+    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@ nav{
 .rightbox{
     width: 40%;
     height: 50px;
-    /* background-color: brown; */
+    background-color: brown;
     justify-content: center;
     align-items: center;
     display: flex;
