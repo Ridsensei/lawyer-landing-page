@@ -3,15 +3,15 @@ margin:0px;
 padding: 0px;
 }
 nav{
-    width: 80%;
+    width: 1110px;
     height: 50px;
-    background-color: blue;
+/*     background-color: blue; */
     display: flex;
 }
 .leftbox{
     width: 60%;
     height: 50px;
-    background-color: aqua;
+/*     background-color: aqua; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@ nav{
 .rightbox{
     width: 40%;
     height: 50px;
-    background-color: brown;
+/*     background-color: brown; */
     justify-content: center;
     align-items: center;
     display: flex;
@@ -35,4 +35,83 @@ nav{
 .icon{
     position: relative;
     right: 160px;
+}
+
+.herocontainer{
+/*    background-color: brown; */
+   display: flex;
+   width: 1200px;
+   height: 974px;
+/*    position: relative;
+   top: 99px; */
+}
+.heroleft{
+/*     background-color: blueviolet; */
+    width: 891px;
+    height: 728px;
+    position: absolute;
+    left: 55px;
+    top: 249px;
+}
+.heroimg{
+/*     background-color: blue; */
+    width: 549px;
+    height: 974px;
+}
+.img{
+    position: relative;
+    left: 668px;
+}
+.buttn{
+    width: 190px;
+    height: 80px;
+    background-color: midnightblue;
+    position: relative;
+    top: 220px;
+    left: 60px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+}
+.collab{
+    width: 238px;
+    height: 88px;
+    position: relative;
+    top: 420px;
+    left: 60px;
+    gap: 0px;
+    opacity: 0px;
+}
+.collabpara{
+    position: relative;
+    top: 415px;
+    left: 60px;
+}
+.heading{
+    position: relative;
+    top: 200px;
+    left: 60px;
+}
+.benefit{
+    background-color: burlywood;
+    width: 1200px;
+    height: 786px;
+}
+.why{
+    background-color: cadetblue;
+    width: 419.31px;
+    height: 302px;
+    position: relative;
+    top: 174px;
+    left: 167px;
+}
+.feature{
+    background-color: chartreuse;
+    width: 545px;
+    height: 534px;
+    position: relative;
+    bottom: 176px;
+    left: 639px;
+    
+    border-radius: 8px;
 }
