@@ -3,7 +3,7 @@ margin:0px;
 padding: 0px;
 }
 nav{
-    width: 1110px;
+    width: 1200px;
     height: 50px;
 /*     background-color: blue; */
     display: flex;
@@ -112,6 +112,23 @@ nav{
     position: relative;
     bottom: 176px;
     left: 639px;
-    
     border-radius: 8px;
+   
+}
+.row1{
+    width: 100%;
+    height: 253px;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px 0px 0px;
+    border-radius: 8px;
+}
+.logo1{
+    width: 37px;
+    height: 37px;
+}
+.feature-item{
+    width: 40%;
+    background-color: aqua;
 }
