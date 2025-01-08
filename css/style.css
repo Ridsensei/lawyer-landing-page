@@ -92,43 +92,96 @@ nav{
     top: 200px;
     left: 60px;
 }
-.benefit{
-    background-color: burlywood;
-    width: 1200px;
-    height: 786px;
-}
 .why{
-    background-color: cadetblue;
+/*     background-color: cadetblue; */
     width: 419.31px;
     height: 302px;
     position: relative;
     top: 174px;
     left: 167px;
 }
+/* feature css start  */
 .feature{
-    background-color: chartreuse;
+    width: 1200px;
+    height: 786px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #F2FCFF;
+}
+.feature-title{
+    width: 420px;
+    height: 302px;
+    position: absolute;
+    left: 167px;
+    top: 174px;
+    /* background-color: #009395; */
+}
+.feature-title .feature-heading{
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 63.98px;
+    letter-spacing: 0.32307693362236023px;
+    text-align: left;
+    color: #2D2F30;
+}
+.feature-title .feature-text{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #8B8C8C;
+    position: absolute;
+    top: 158px;
+    left: 8px;
+    right:27px;
+}
+.feature-items{
     width: 545px;
     height: 534px;
-    position: relative;
-    bottom: 176px;
-    left: 639px;
-    border-radius: 8px;
-   
+    position: absolute;
+    right: 50px;
+    top: 126px;
+    /* background-color: #782e78; */
 }
-.row1{
-    width: 100%;
-    height: 253px;
-    background-color: crimson;
-    display: flex;
-    justify-content: space-between;
-    padding: 24px 0px 0px 0px;
-    border-radius: 8px;
-}
-.logo1{
-    width: 37px;
-    height: 37px;
-}
-.feature-item{
-    width: 40%;
+.feature-items-row:last-child{
+    margin-top: 28px;
     background-color: aqua;
 }
+.feature-items-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.feature-item-heading{
+    margin: 18px 0px 10px;
+    padding-right: 14px;
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #363940;
+}
+.feature-item-text{
+    font-size: 14px;
+    color: #363940;
+    font-weight: 400;
+    text-align: left;
+    color: #8B8C8C;
+    line-height: 24px;
+    font-family: Plus Jakarta Sans;
+}
+.feature-item{
+    width: 255px;
+    height: 253px;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: #FCFCFC;
+    box-shadow: 0px 18px 58px 16px #0000000F;
+
+}
+/* feature css end */
