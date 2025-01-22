@@ -148,7 +148,7 @@ nav{
 }
 .feature-items-row:last-child{
     margin-top: 28px;
-    background-color: aqua;
+/*     background-color: aqua; */
 }
 .feature-items-row{
     display: flex;
@@ -185,3 +185,200 @@ nav{
 
 }
 /* feature css end */
+
+/* review css start  */
+.review{
+    width: 1200px;
+    height: 356px;
+    margin: 0 auto;
+    background: url("../images/bg.png") no-repeat center center;
+    background-size:cover;
+}
+
+.review-container{
+width: 1200px;
+margin: 0 auto;
+padding-top: 53px;
+background-color: #1282A6;
+}
+.review-heading{
+margin-bottom: 48px;
+}
+.review-heading h2{
+color: #ffffff;
+/* typography */
+font-size: 48px;
+font-weight: 900;
+line-height: 64px;
+text-align: center;
+margin-bottom: 8px;
+letter-spacing: 0.005em;
+font-family: Playfair Display;
+text-decoration-skip-ink: none;
+text-underline-position: from-font;
+
+}
+
+.review-heading p{
+color: #ffffff;
+/* typography */
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+text-align: center;
+letter-spacing: 0.5px;
+font-family: Poppins;
+text-decoration-skip-ink: none;
+text-underline-position: from-font;
+}
+.review-statistics{
+width: 800px;    
+gap: 15px;
+display: flex;
+margin-left: 207px;
+
+}
+.review-statistics-item{
+width: 255px;
+height: 96px;
+color: #ffffff;
+}
+
+.review-statistics-item h2{
+font-size: 48px;
+font-weight: 800;
+line-height: 64px;
+text-align: center;
+font-family: Poppins;
+text-decoration-skip-ink: none;
+text-underline-position: from-font;
+
+}
+.review-statistics-item h3{
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+text-align: center;
+font-family: Poppins;
+text-decoration-skip-ink: none;
+text-underline-position: from-font;
+letter-spacing: 0.30000001192092896px;
+
+}
+
+.vertical-rule {
+width: 1px; 
+height: 96px; 
+margin: 0 auto; 
+background-color: #ffffffaa; 
+}
+/* review css end */
+.testimonial{
+    width: 1200px;
+    height: 530px;
+    margin: 0 auto;
+    padding-top: 68px;
+    background-color: #F2FCFF;
+}
+
+.testimonial-heading{
+    color:#2E2F30;
+    margin-bottom: 44px;
+    /* typography */
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.testimonial-container{
+    height: 304px;
+    width: 1110px;
+    margin: 0 auto;
+    
+   
+}
+.testimonial-cards{
+    height: 232px;
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+   
+}
+.testimonial-card{
+    width: 540px;
+    height: 132px;
+    padding: 32px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px 0px #29292A12;
+}
+.testimonial-card-heading{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 8px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.testimonial-card-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    font-family: Poppins;
+    letter-spacing: 0.5px;
+    text-decoration-skip-ink: none;
+    text-underline-position: from-font;
+}
+.arrow{
+    width: 24px;
+    height: 24px;
+    left: 50%;
+    bottom: -20px;
+    rotate: 45deg;
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: #ffffff;    
+}
+.profiles{
+    gap: 50px;
+    width: 100%;
+    display: flex;
+}
+.profile-area{
+    gap: 16px; 
+    width: 540px;
+    height: 56px;
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.profile-name{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 28px;
+    font-family: Inter;
+    text-decoration-skip-ink: none;
+    text-underline-position: from-font;
+}
+.profile-position{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    font-family: Inter;
+    text-decoration-skip-ink: none;
+    text-underline-position: from-font;
+}
